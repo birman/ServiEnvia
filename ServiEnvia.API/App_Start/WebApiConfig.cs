@@ -10,7 +10,7 @@ namespace ServiEnvia.API
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            UnityConfig.RegisterComponents();
             // Web API routes
             config.MapHttpAttributeRoutes();
 

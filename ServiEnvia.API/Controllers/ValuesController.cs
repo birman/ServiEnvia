@@ -1,17 +1,23 @@
-﻿using System;
+﻿using ServiEnvia.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace ServiEnvia.API.Controllers
 {
     public class ValuesController : ApiController
     {
+        private IPackageStatusService _packageStatusService;
+
+        public ValuesController(IPackageStatusService packageStatusService)
+        {
+            _packageStatusService = packageStatusService;
+        }
+
         // GET api/values
         public IEnumerable<string> Get()
         {
+            var list = _packageStatusService.GetPackageStatus().ToList();
             return new string[] { "value1", "value2" };
         }
 

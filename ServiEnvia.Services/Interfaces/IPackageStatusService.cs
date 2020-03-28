@@ -1,6 +1,10 @@
-﻿namespace ServiEnvia.Services.Interfaces
+﻿using ServiEnvia.Data.EF.ConText;
+using System.Collections.Generic;
+
+namespace ServiEnvia.Services.Interfaces
 {
     public interface IPackageStatusService
     {
+        IEnumerable<PackageStatus> GetPackageStatus();
     }
 }

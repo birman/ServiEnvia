@@ -56,6 +56,10 @@
       <Project>{142A327D-3A88-42F7-96E5-2D6918D46274}</Project>
       <Name>ServiEnvia.Data.EF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ServiEnvia.Repositories\ServiEnvia.Repositories.csproj">
+      <Project>{667A71C7-A221-4032-885F-656B1DCA59E3}</Project>
+      <Name>ServiEnvia.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
