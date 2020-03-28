@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access Layer", "3. 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Transversal Layer", "4. Transversal Layer", "{7879B249-875A-48C3-8F5D-6F28D514ACF7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Testing", "5. Testing", "{52F45A12-7DDF-4B2A-AFEE-118F94FDEE47}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Testing", "6. Testing", "{52F45A12-7DDF-4B2A-AFEE-118F94FDEE47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiEnvia.Services.Tests", "ServiEnvia.Services.Tests\ServiEnvia.Services.Tests.csproj", "{B6051251-36B0-4037-A6DE-6C8CDD219589}"
 EndProject
@@ -24,6 +24,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiEnvia.API", "ServiEnvia.API\ServiEnvia.API.csproj", "{43A2C7A3-8E26-4358-985B-62B75B8390A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiEnvia.Repositories", "ServiEnvia.Repositories\ServiEnvia.Repositories.csproj", "{667A71C7-A221-4032-885F-656B1DCA59E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Helpers Layer", "5. Helpers Layer", "{89B6F325-3C8A-4737-AF04-BEC096A00AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiEnvia.Helpers", "ServiEnvia.Helpers\ServiEnvia.Helpers.csproj", "{D5098ABE-BBA3-4C66-83FB-02B58FFA3846}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{667A71C7-A221-4032-885F-656B1DCA59E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{667A71C7-A221-4032-885F-656B1DCA59E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{667A71C7-A221-4032-885F-656B1DCA59E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5098ABE-BBA3-4C66-83FB-02B58FFA3846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5098ABE-BBA3-4C66-83FB-02B58FFA3846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5098ABE-BBA3-4C66-83FB-02B58FFA3846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5098ABE-BBA3-4C66-83FB-02B58FFA3846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +74,7 @@ Global
 		{E5E01263-F789-477B-B6CD-0727AEF0A34E} = {13E56D52-1C1C-4667-B3F6-87006AC18FA4}
 		{43A2C7A3-8E26-4358-985B-62B75B8390A1} = {17D0A1C6-D9B0-4E19-A32D-A1516031D148}
 		{667A71C7-A221-4032-885F-656B1DCA59E3} = {13E56D52-1C1C-4667-B3F6-87006AC18FA4}
+		{D5098ABE-BBA3-4C66-83FB-02B58FFA3846} = {89B6F325-3C8A-4737-AF04-BEC096A00AEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C3E368-80D4-4D7F-A2C3-F8814D7F4CC4}
