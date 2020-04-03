@@ -28,13 +28,13 @@ namespace ServiEnvia.Helpers
             container.RegisterType<ICustomerService, CustomerService>();
             container.RegisterType<IPackageService, PackageService>();
             container.RegisterType<IPackageStatusService, PackageStatusService>();
-            container.RegisterType<IPackageService, PackageService>();
+            container.RegisterType<IShippingPricesService, ShippingPricesService>();
 
             // Register repositories
             container.RegisterType<ICustomerRepository, CustomerRepository>();
             container.RegisterType<IPackageRepository, PackageRepository>();
             container.RegisterType<IPackageStatusRepository, PackageStatusRepository>();
-            container.RegisterType<IPackageRepository, PackageRepository>();
+            container.RegisterType<IShippingPricesRepository, ShippingPricesRepository>();
         }
 
         public static T Resolve<T>()

@@ -19,7 +19,7 @@ namespace ServiEnvia.API.Extended
                 Email = customer.Email,
                 RegistrationDate = customer.RegistrationDate,
                 Status = customer.Status,
-                Package = customer.Package
+                //Package = customer.Package
             };
         }
 
@@ -45,8 +45,7 @@ namespace ServiEnvia.API.Extended
                 Phone = customer.Phone,
                 Email = customer.Email,
                 RegistrationDate = customer.RegistrationDate,
-                Status = customer.Status,
-                Package = customer.Package
+                Status = customer.Status
             };
         }
 

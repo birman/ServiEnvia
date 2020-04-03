@@ -17,7 +17,7 @@ namespace ServiEnvia.API.ViewModels
         public decimal ShippingCost { get; set; }
         public decimal InsuranceCost { get; set; }
 
-        public virtual Customer Customer { get; set; }
-        public virtual PackageStatus PackageStatus1 { get; set; }
+        //public virtual Customer Customer { get; set; }
+        //public virtual PackageStatus PackageStatus1 { get; set; }
     }
 }

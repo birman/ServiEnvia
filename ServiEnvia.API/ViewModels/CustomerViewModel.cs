@@ -15,6 +15,6 @@ namespace ServiEnvia.API.ViewModels
         public string Email { get; set; }
         public Nullable<System.DateTime> RegistrationDate { get; set; }
         public Nullable<bool> Status { get; set; }
-        public virtual ICollection<Package> Package { get; set; }
+        //public virtual ICollection<Package> Package { get; set; }
     }
 }
