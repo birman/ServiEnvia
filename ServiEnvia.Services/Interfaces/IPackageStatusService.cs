@@ -5,6 +5,8 @@ namespace ServiEnvia.Services.Interfaces
 {
     public interface IPackageStatusService
     {
-        IEnumerable<PackageStatus> GetPackageStatus();
+        IEnumerable<PackageStatus> GetAllPackageStatus();
+
+        PackageStatus GetPackageStatusById(int id);
     }
 }

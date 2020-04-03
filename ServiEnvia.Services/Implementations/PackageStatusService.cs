@@ -14,9 +14,14 @@ namespace ServiEnvia.Services.Implementations
             _packageStatusRepository = packageStatusRepository;
         }
 
-        public IEnumerable<PackageStatus> GetPackageStatus()
+        public IEnumerable<PackageStatus> GetAllPackageStatus()
         {
-            return _packageStatusRepository.GetPackageStatus();
+            return _packageStatusRepository.GetAllPackageStatus();
+        }
+
+        public PackageStatus GetPackageStatusById(int id)
+        {
+            return _packageStatusRepository.GetPackageStatusById(id);
         }
     }
 }
