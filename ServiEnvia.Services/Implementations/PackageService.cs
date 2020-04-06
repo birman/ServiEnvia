@@ -20,6 +20,7 @@ namespace ServiEnvia.Services.Implementations
         public void SavePackage(Package package)
         {
             package.ShippingCost = _shippingPricesService.CalculateShippingPrice(package);
+            package.PackageStatus = 1;
             _packageRepository.Add(package, true);
         }
 

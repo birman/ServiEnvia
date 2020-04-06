@@ -1,6 +1,7 @@
 ﻿using ServiEnvia.Data.EF.ConText;
 using ServiEnvia.Repositories.Interfaces;
 using ServiEnvia.Services.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace ServiEnvia.Services.Implementations
@@ -16,6 +17,7 @@ namespace ServiEnvia.Services.Implementations
 
         public void SaveCustomer(Customer customer)
         {
+            customer.RegistrationDate = DateTime.Now;
             _customerRepository.Add(customer, true);
         }
 
